@@ -1,0 +1,190 @@
+body{
+	margin:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: inherit;
+    -webkit-transition: color 140ms;
+    -moz-transition: color 140ms;
+    transition: color 140ms;
+}
+
+a:hover{
+	color: red;
+}
+
+/** 解决layer-control 现边界空白的问题**/
+.leaflet-control-layers .leaflet-control-layers-list{
+	margin-bottom: 0;
+}
+
+.yn-polygon {
+	cursor: default;
+	cursor: -webkit-grab;
+	cursor:    -moz-grab;
+}
+
+.search-control{
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	font-size:14px; 
+	background-color:#fff;
+	padding:6 15 5 5;
+}
+
+.search-control .search-input{
+	line-height:20px;
+	height:26px;
+	width:250px;
+	border:none;
+	outline:0px; 
+	font-size:14px; 
+} 
+
+#search-input::-ms-clear{
+	display:none;
+}
+
+.pkh-control{
+	background: white;
+	border-radius:3px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+    font-size:14px;
+    min-width:285px;
+}
+
+.pkh-control .item,
+.pkh-control .item-report
+{
+	padding: 4 5 4 10;
+	cursor: pointer;
+}
+
+.pkh-control .item:hover,
+.pkh-control .item-report:hover
+{
+	background-color:#eeeeee;
+}
+
+
+.pkh-control .item a i{
+	color:#cccccc; 
+}
+
+.pkh-control .item-ok a i,
+.pkh-control .item-report a i
+{
+	color:#3399CC; 
+}
+
+.pkh-control .item a span{
+	padding-left:10px;
+	color:999999;
+}
+
+.pkh-control .item-ok a span,
+.pkh-control .item-report a span
+{
+	padding-left:10px;
+	color:#404040;
+}
+
+.plan-control{
+	background: white;
+	border-radius:2px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+    font-size:14px;
+    height:200px;
+    min-width:285px;
+}
+
+.plan-control #plan-title{
+	color:#606060;
+	padding-left:10px;
+	height:30px;   
+  	line-height:30px;
+  	margin-top:5px;
+}
+
+.plan-control #plan-chart{
+	height:160px;
+	width:280px;
+	margin: 2 2 2 2;
+}
+
+.popup-title {
+	cursor: default;
+	font-size: 14px;
+}
+
+.pupup-table td{
+	font:12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	 white-space: nowrap;
+}
+
+.popup-content {
+	margin-top: 5px;
+	white-space: nowrap;
+	font-size: 14px;
+}
+
+.popup-a {
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.popup-a:hover {
+	text-decoration: underline
+}
+
+/** 图层control**/
+.leaflet-control-layers-expanded{
+	min-width: 120px;
+	border-radius:2px;
+	font-size:14px;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-control-layers-base div{
+	cursor:pointer;
+	min-height:22px;
+	font-size:14px;
+}
+.leaflet-control-layers-base input{
+	cursor:pointer;
+}
+.leaflet-control-layers-base span{
+	padding:1 8 1 9;
+}
+
+.leaflet-control-layers-overlays div{
+	cursor:pointer;
+	min-height:22px;
+}
+
+.leaflet-control-layers-overlays input {
+	width: 16px;
+	cursor:pointer;
+}
+
+.dibiao-layer-label{
+	color:white;
+	padding:1 8 1 8;
+	border-radius: 1;
+	border: 1px solid grey;
+    filter:alpha(opacity=80);  
+    -moz-opacity:0.8;  
+    -khtml-opacity: 0.8;  
+    opacity: 0.8;  
+}
+
+.leaflet-control-layers-scrollbar {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	padding-right: 5px;
+}
+

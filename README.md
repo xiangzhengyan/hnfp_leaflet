@@ -1,0 +1,2 @@
+- 需求 http://g.asiacom-online.com/xiangyz/hainan-hope/issues/1
+- demo敏捷开发方案步骤  http://g.asiacom-online.com/xiangyz/hainan-hope/issues/2

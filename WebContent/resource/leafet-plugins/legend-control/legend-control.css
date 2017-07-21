@@ -1,0 +1,30 @@
+#show-legend{
+	background:white;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	margin-bottom:10px;
+	border-radius: 2px;
+	font-size:14px;
+	color:#606060;
+	width:180px;
+	display:none;
+}
+.row-legend{
+	height:35px;
+	padding-left:5px;
+	padding-top:3px;
+}
+.row-img{
+	height:29px;
+}
+.row-span{
+	margin-left:5px;
+	position:absolute;
+}
+#legend-button{
+	cursor: pointer;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	border-radius: 2px;
+	height:27px;
+	width:50px;
+	opacity: 0.8;  
+}
